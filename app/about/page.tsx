@@ -16,7 +16,7 @@ export default function About() {
         <section className="bg-background py-12 md:py-20 px-4">
           <div className="max-w-7xl mx-auto">
             <p className="text-accent font-bold text-sm md:text-base mb-4 font-geist">WHO WE ARE?</p>
-            <h1 className="text-3xl md:text-4xl font-medium text-foreground mb-6 font-geist">
+            <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 font-geist">
               Want to Know a little <span className="text-accent">About us?</span>
             </h1>
             <p className="text-2xl md:text-3xl text-foreground font-normal mb-8 font-geist">Let us tell you.</p>
