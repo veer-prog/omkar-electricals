@@ -21,11 +21,11 @@ export default function Home() {
                   Government Licensed Electrical Contractors
                 </h1>
                 <p className="text-gray-600 text-base leading-relaxed mb-8 text-justify font-geist">
-                  In Maharashtra, most individuals confuse an electrician with an electrical contractor since they do not know the essential distinctions between them. However, both positions are different from one another and might be regarded as electricians employed by electrical contractors in Mumbai. Let&apos;s examine a few of the basic tasks performed by electrical contractors.
+                  In Maharashtra, most individuals confuse an electrician with an electrical contractor since they do not know the essential distinctions between them. However, both positions are different from one another and might be regarded as electricians employed by electrical contractors in Maharashtra.
                 </p>
                 <Link
                   href="/about"
-                  className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded font-medium hover:opacity-90 transition font-inter"
+                  className="inline-block bg-accent text-accent-foreground px-6 py-3 rounded font-medium hover:opacity-90 transition font-inter text-sm"
                 >
                   ABOUT US
                 </Link>
@@ -135,7 +135,7 @@ export default function Home() {
         {/* CTA Section */}
         <section className="bg-foreground text-white py-16 md:py-20 px-4">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6 font-geist">
+            <h2 className="text-3xl md:text-4xl font-medium mb-6 font-geist">
               Need Professional Electrical Services?
             </h2>
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
