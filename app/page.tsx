@@ -17,7 +17,7 @@ export default function Home() {
                 <p className="text-accent font-bold text-sm md:text-base mb-4 font-inter">
                   WELCOME TO OMKAR ELECTRICALS
                 </p>
-                <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight font-geist">
+                <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 leading-tight font-inter">
                   Government Electrical Contractors
                 </h1>
                 <p className="text-gray-600 text-base leading-relaxed mb-8 text-justify font-geist">
@@ -53,7 +53,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               {/* Left text */}
               <div className="font-geist">
-                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-geist">
+                <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 font-geist">
                   <span className="text-accent">Omkar</span> Electricals
                 </h2>
                 <p className="text-gray-700 mb-4 leading-relaxed text-justify">
@@ -80,7 +80,7 @@ export default function Home() {
         {/* Services Preview */}
         <section className="bg-secondary py-16 md:py-24 px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4 font-geist">
+            <h2 className="text-3xl md:text-4xl font-semibold text-center text-foreground mb-4 font-geist">
               Our Services
             </h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto font-inter">
@@ -103,7 +103,7 @@ export default function Home() {
                 },
               ].map((service) => (
                 <div key={service.title} className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
+                  <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
                   <p className="text-gray-600">{service.description}</p>
                 </div>
               ))}
@@ -123,7 +123,7 @@ export default function Home() {
         {/* CTA Section */}
         <section className="bg-foreground text-white py-16 md:py-20 px-4">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 font-geist">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6 font-geist">
               Need Professional Electrical Services?
             </h2>
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">

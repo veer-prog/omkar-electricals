@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About section */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Omkar Electricals</h3>
+            <h3 className="font-medium text-lg mb-4">Omkar Electricals</h3>
             <p className="text-gray-300 text-sm">
               Professional Government electrical contracting services for residential, commercial, and industrial projects. Adding light to life since day one.
             </p>
@@ -21,7 +21,7 @@ export function Footer() {
 
           {/* Quick links */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Quick Links</h3>
+            <h3 className="font-medium text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-accent transition">
@@ -48,7 +48,7 @@ export function Footer() {
 
           {/* Contact section */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Contact Info</h3>
+            <h3 className="font-medium text-lg mb-4">Contact Info</h3>
             <div className="space-y-2 text-sm text-gray-300">
               <p>
                 <strong>Email:</strong> omkar@electricals.com
