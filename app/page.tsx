@@ -112,7 +112,7 @@ export default function Home() {
             <div className="text-center">
               <Link
                 href="/services"
-                className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-bold hover:opacity-90 transition font-quicksand"
+                className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-bold hover:opacity-90 transition font-inter"
               >
                 View All Services
               </Link>
