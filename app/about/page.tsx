@@ -46,7 +46,7 @@ export default function About() {
               Omkar Electricals envisions being a flag-bearer for sustainable electrical solutions. We promote sustainability movement and create awareness about sustainable habitat by highlighting strategies.
             </p>
 
-            <p className="text-gray-700 mb-6 leading-relaxed text-justify">
+            <p className="mb-6 leading-relaxed text-justify border-l-4 pl-4" style={{borderColor: '#0b72ff', color: '#1682fc'}}>
               At present we are conducting the following programmes: the Energy Audit, Safety Audit, ISO - 9001,14001,45001,50001 Audit and certification.
             </p>
 
@@ -115,7 +115,7 @@ export default function About() {
 
               {/* Values Content */}
               <div className="font-geist text-justify">
-                <h2 className="text-2xl md:text-3xl font-medium text-foreground mb-8">VALUES</h2>
+                <h2 className="text-2xl md:text-3xl font-medium text-foreground mb-8">Values</h2>
 
                 <ul className="space-y-4">
                   {[
