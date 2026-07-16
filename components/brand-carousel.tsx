@@ -75,7 +75,7 @@ export function BrandCarousel() {
           <div
             className="flex gap-8 md:gap-12 animate-scroll"
             style={{
-              animation: 'scroll 25s linear infinite',
+              animation: 'scroll 10s linear infinite',
             }}
           >
             {displayBrands.map((brand, index) => (
