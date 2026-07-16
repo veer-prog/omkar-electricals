@@ -113,11 +113,11 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-4">Head Office</h3>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  A/2, 3rd Floor, Gauri Premises Co. Op, Society LTD, near Bank Of Baroda,
+                  Janwadkar complex lower ground (LG-2),
                   <br />
-                  Navghar Road, Vasai East,
+                  Panchaganga hospital, Kolhapur,
                   <br />
-                  Maharashtra 401210
+                  Maharashtra 416002
                 </p>
               </div>
 
