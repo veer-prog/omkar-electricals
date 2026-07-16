@@ -35,6 +35,9 @@ export function Header() {
                 </Link>
               </div>
             </div>
+            <Link href="/area-of-work" className="text-foreground hover:text-accent font-medium transition">
+              Area of Work
+            </Link>
             <Link href="/contact" className="text-foreground hover:text-accent font-medium transition">
               Contact us
             </Link>
@@ -83,6 +86,13 @@ export function Header() {
               onClick={() => setIsOpen(false)}
             >
               Our Services
+            </Link>
+            <Link
+              href="/area-of-work"
+              className="block text-foreground hover:text-accent font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Area of Work
             </Link>
             <Link
               href="/contact"
