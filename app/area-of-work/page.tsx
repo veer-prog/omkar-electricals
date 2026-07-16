@@ -7,7 +7,7 @@ export default function AreaOfWork() {
   const sectors = [
     {
       name: 'Industrial',
-      description: 'We have successfully executed electrical projects for leading industrial facilities, ensuring reliable power systems and safety compliance for manufacturing operations.',
+      description: 'We have successfully executed electrical projects for educational institutions, delivering safe, reliable, and energy-efficient electrical systems for schools, colleges, universities, and training campuses. Our solutions ensure uninterrupted power supply, modern infrastructure, and compliance with the highest safety standards, creating secure and efficient learning environments.',
       logos: [
         {
           name: 'KICTE',
@@ -21,7 +21,7 @@ export default function AreaOfWork() {
     },
     {
       name: 'Banking',
-      description: 'Our expertise extends to the banking sector, where we have delivered comprehensive electrical solutions for major financial institutions, ensuring uninterrupted power supply and high-security standards.',
+      description: 'We have successfully executed electrical projects for leading banks and financial institutions, delivering reliable power distribution systems, backup power solutions, and energy-efficient electrical infrastructure. Our services ensure uninterrupted operations, enhanced safety, and compliance with the highest industry standards.',
       logos: [
         {
           name: 'Bank of Baroda',
@@ -35,7 +35,7 @@ export default function AreaOfWork() {
     },
     {
       name: 'Developers & Real Estate',
-      description: 'We partner with leading real estate developers to provide complete electrical infrastructure solutions for residential, commercial, and mixed-use development projects.',
+      description: 'We collaborate with leading builders and developers to provide turnkey electrical solutions for residential, commercial, and integrated township projects. From electrical planning and installation to testing and commissioning, we deliver reliable, energy-efficient, and future-ready infrastructure tailored to every development.',
       logos: [
         {
           name: 'SAI Developers & Builders',
@@ -56,11 +56,11 @@ export default function AreaOfWork() {
         {/* Hero Section */}
         <section className="bg-background py-12 px-4">
           <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-geist">
+            <h1 className="text-4xl md:text-5xl font-medium text-foreground mb-6 font-geist">
               Area of <span className="text-accent">Work</span>
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl font-geist">
-              Our expertise spans across diverse sectors, delivering world-class electrical solutions to leading organizations in industrial, banking, and real estate development industries.
+            <p className="text-lg text-gray-600 max-w-2xl font-geist text-justify">
+              Our expertise spans across a wide range of sectors, where we have successfully completed numerous electrical projects for industrial facilities, banking institutions, commercial buildings, residential developments, hospitals, educational institutions, hospitality establishments, and real estate projects. We are committed to delivering safe, reliable, and high-quality electrical solutions that meet the highest industry standards.
             </p>
           </div>
         </section>
@@ -70,10 +70,10 @@ export default function AreaOfWork() {
           <div className="max-w-7xl mx-auto">
             {sectors.map((sector) => (
               <div key={sector.name} className="mb-16 md:mb-24">
-                <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-4 font-geist">
+                <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-4 font-geist">
                   {sector.name}
                 </h2>
-                <p className="text-lg text-gray-700 mb-12 max-w-3xl font-geist">
+                <p className="text-lg text-gray-700 mb-12 max-w-3xl font-geist text-justify">
                   {sector.description}
                 </p>
 
