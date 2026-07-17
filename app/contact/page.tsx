@@ -105,14 +105,14 @@ export default function Contact() {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {/* Head Office */}
-              <div className="bg-white p-8 rounded-lg shadow-sm border border-border text-center">
+              <div className="bg-white p-8 rounded-lg shadow-sm border border-border text-center font-roboto">
                 <div className="flex justify-center mb-4">
                   <div className="bg-secondary p-4 rounded-lg">
                     <MapPin className="text-accent" size={32} />
                   </div>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Head Office</h3>
-                <p className="text-gray-700 text-base leading-relaxed">
+                <p className="text-gray-700 text-base leading-relaxed font-roboto">
                   Janwadkar complex lower ground (LG-2),
                   <br />
                   Panchaganga hospital, Kolhapur,
@@ -122,7 +122,7 @@ export default function Contact() {
               </div>
 
               {/* Connect Us */}
-              <div className="bg-white p-8 rounded-lg shadow-sm border border-border">
+              <div className="bg-white p-8 rounded-lg shadow-sm border border-border font-roboto">
                 <div className="text-center mb-6">
                   <div className="flex justify-center mb-4">
                     <div className="bg-secondary p-4 rounded-lg">
@@ -166,7 +166,7 @@ export default function Contact() {
         {/* Contact Form Section */}
         <section className="bg-secondary py-16 md:py-24 px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-accent mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center" style={{ color: '#fabc00' }}>
               Tell us About Yourself
             </h2>
 
