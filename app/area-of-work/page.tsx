@@ -100,30 +100,30 @@ export default function AreaOfWork() {
         {/* Statistics Section */}
         <section className="py-12 md:py-16 px-4">
           <div className="max-w-7xl mx-auto">
-            <div className="bg-accent rounded-3xl px-8 md:px-12 py-16 md:py-20">
+            <div className="rounded-3xl px-8 md:px-12 py-16 md:py-20" style={{ backgroundColor: '#FFD957' }}>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
                 {/* Stat 1 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold text-white mb-2 font-roboto">500+</h3>
-                  <p className="text-lg md:text-xl text-white font-inter">Happy Clients</p>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>500+</h3>
+                  <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Happy Clients</p>
                 </div>
 
                 {/* Stat 2 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold text-white mb-2 font-roboto">40+</h3>
-                  <p className="text-lg md:text-xl text-white font-inter">Locations</p>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>40+</h3>
+                  <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Locations</p>
                 </div>
 
                 {/* Stat 3 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold text-white mb-2 font-roboto">300+</h3>
-                  <p className="text-lg md:text-xl text-white font-inter">Projects</p>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>300+</h3>
+                  <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Projects</p>
                 </div>
 
                 {/* Stat 4 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold text-white mb-2 font-roboto">40+</h3>
-                  <p className="text-lg md:text-xl text-white font-inter">Professionals</p>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>40+</h3>
+                  <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Professionals</p>
                 </div>
               </div>
             </div>
