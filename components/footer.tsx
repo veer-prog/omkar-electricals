@@ -45,21 +45,6 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Contact section */}
-          <div>
-            <h3 className="font-medium text-lg mb-4">Contact Info</h3>
-            <div className="space-y-2 text-sm text-gray-300">
-              <p>
-                <strong>Email:</strong> omkar@electricals.com
-              </p>
-              <p>
-                <strong>Phone:</strong> (+91) 9876543210
-              </p>
-              <p>
-                <strong>Address:</strong> Mumbai, Maharashtra
-              </p>
-            </div>
           </div>
         </div>
 
