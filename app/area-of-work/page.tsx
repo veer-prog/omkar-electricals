@@ -59,7 +59,7 @@ export default function AreaOfWork() {
             <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 font-geist">
               Area of <span className="text-accent">Work</span>
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl font-geist">
+            <p className="text-lg text-gray-600 max-w-8xl font-geist">
               Our expertise spans across a wide range of sectors, where we have successfully completed numerous electrical projects for industrial facilities, banking institutions, commercial buildings, residential developments, hospitals, educational institutions, hospitality establishments, and real estate projects. We are committed to delivering safe, reliable, and high-quality electrical solutions that meet the highest industry standards.
             </p>
           </div>
@@ -73,12 +73,12 @@ export default function AreaOfWork() {
                 <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-4 font-geist">
                   {sector.name}
                 </h2>
-                <p className="text-lg text-gray-700 mb-12 max-w-3xl font-geist">
+                <p className="text-lg text-gray-700 mb-12 max-w-7xl font-geist">
                   {sector.description}
                 </p>
 
                 {/* Logos Display */}
-                <div className="flex flex-wrap items-center justify-start gap-12 md:gap-16">
+                <div className="flex flex-wrap items-center justify-center gap-12 md:gap-16">
                   {sector.logos.map((logo) => (
                     <div
                       key={logo.name}
@@ -100,7 +100,7 @@ export default function AreaOfWork() {
         {/* Statistics Section */}
         <section className="py-12 md:py-16 px-4">
           <div className="max-w-7xl mx-auto">
-            <div className="rounded-3xl px-8 md:px-12 py-16 md:py-20" style={{ backgroundColor: '#FFD957' }}>
+            <div className="rounded-3xl px-6 md:px-10 py-8 md:py-10" style={{ backgroundColor: '#FFD957' }}>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
                 {/* Stat 1 */}
                 <div className="text-center">
