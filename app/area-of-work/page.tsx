@@ -56,7 +56,7 @@ export default function AreaOfWork() {
         {/* Hero Section */}
         <section className="bg-background py-12 px-4">
           <div className="max-w-7xl mx-auto">
-            <h1 className="<p className="text-lg text-gray-700 mb-12 max-w-8xl font-geist">
+            <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 font-geist">
               Area of <span className="text-accent">Work</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-8xl font-geist">
@@ -73,7 +73,7 @@ export default function AreaOfWork() {
                 <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-4 font-geist">
                   {sector.name}
                 </h2>
-                <p className="text-lg text-gray-700 mb-12 max-w-3xl font-geist">
+                <p className="text-lg text-gray-700 mb-12 max-w-7xl font-geist">
                   {sector.description}
                 </p>
 
