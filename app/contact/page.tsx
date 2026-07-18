@@ -43,9 +43,9 @@ export default function Contact() {
               </div>
 
               {/* Quick Contact */}
-              <div className="bg-white p-8 rounded-lg shadow-sm border border-border font-roboto">
-                <h3 className="text-xl font-semibold text-foreground mb-6 text-center">Quick Contact</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-white p-8 rounded-lg shadow-sm border border-border">
+                <h3 className="text-xl font-semibold text-foreground mb-6 text-center font-geist">Quick Contact</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-geist">
                   <a
                     href="tel:+917721027474"
                     className="bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-6 rounded text-center transition"
@@ -63,19 +63,19 @@ export default function Contact() {
             </div>
 
             {/* Get Directions */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-border font-roboto">
-              <div className="flex items-start gap-3 mb-4">
+            <div className="bg-white p-8 rounded-lg shadow-sm border border-border">
+              <div className="flex items-center justify-center gap-3 mb-4 font-geist text-center">
                 <span className="text-foreground font-bold text-lg">GET DIRECTIONS</span>
                 <span className="text-xl">⬈</span>
               </div>
-              <p className="text-gray-700 text-base mb-6">
+              <p className="text-gray-700 text-base mb-6 font-geist">
                 Click the button below to open our location in Google Maps and get turn-by-turn directions to Omkar Electricals.
               </p>
               <a
                 href="https://maps.app.goo.gl/4Qx4ZTJsPG36AUD57"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-6 rounded text-center transition"
+                className="block w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-6 rounded text-center transition font-geist"
               >
                 OPEN IN GOOGLE MAPS
               </a>
