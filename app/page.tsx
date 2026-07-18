@@ -57,7 +57,7 @@ export default function Home() {
                   <span className="text-accent">Omkar</span> Electricals
                 </h2>
                 <p className="text-gray-700 mb-4 leading-relaxed text-justify">
-                  is one of the top Government License Electrical Contractor and Electrical Service Provider in Maharashtra because we are happy to be connected with some of the most prestigious electrical projects in the state. With a group of highly skilled and knowledgeable experts who are on board and completely comprehend your needs. Electrical cable laying, concealed wiring, casing wiring, industrial wiring, residential wiring, turnkey electrical projects, maintenance and installation, among other electrical services, are just a few of the many electrical services we provide in Maharashtra. In Maharashtra, we offer the best solar kits. The electrical contractors we work with in Maharashtra are excellent.
+                  is one of the top Government License Electrical Contractor and Electrical Service Provider in Maharashtra since 2001 because we are happy to be connected with some of the most prestigious electrical projects in the state. With a group of highly skilled and knowledgeable experts who are on board and completely comprehend your needs. Electrical cable laying, concealed wiring, casing wiring, industrial wiring, residential wiring, turnkey electrical projects, maintenance and installation, among other electrical services, are just a few of the many electrical services we provide in Maharashtra.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-justify">
                   For any kind of property, electrical wiring is crucial. You cannot afford to be lax in this situation. To ensure that quality is never compromised, we take all necessary safety precautions. We are one of Maharashtra&apos;s most dependable electrical contractors because of this. Our network is incredibly robust and provides power services in Maharashtra that are unmatched. So don&apos;t hesitate to look for a contractor who handles jobs like cover wiring, industrial wiring, etc. You are already in the proper location. Maharashtra has a large number of electrical contractors, but we stand out from the crowd since we are superior to them.
@@ -84,7 +84,7 @@ export default function Home() {
               Our Services
             </h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto font-inter">
-              We provide comprehensive electrical services for residential, commercial, and industrial projects.
+              We provide comprehensive electrical services for residential, commercial, government and industrial projects.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 font-geist">
