@@ -100,7 +100,7 @@ export default function AreaOfWork() {
         {/* Statistics Section */}
         <section className="py-12 md:py-16 px-4">
           <div className="max-w-7xl mx-auto">
-            <div className="rounded-3xl px-8 md:px-12 py-16 md:py-20" style={{ backgroundColor: '#FFD957' }}>
+            <div className="rounded-3xl px-6 md:px-10 py-8 md:py-10" style={{ backgroundColor: '#FFD957' }}>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
                 {/* Stat 1 */}
                 <div className="text-center">
