@@ -12,7 +12,7 @@ export default function Contact() {
       <main>
         {/* Hero Section */}
         <section className="bg-background py-12 md:py-20 px-4">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <p className="text-accent font-bold text-sm md:text-base mb-4 font-geist">WHO WE ARE?</p>
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-geist">
               You Have a <span className="text-accent">Question?</span>
@@ -23,7 +23,7 @@ export default function Contact() {
 
         {/* Contact Info Cards */}
         <section className="py-16 md:py-24 px-4 font-geist">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {/* Head Office */}
               <div className="bg-white p-8 rounded-lg shadow-sm border border-border text-center font-roboto">
