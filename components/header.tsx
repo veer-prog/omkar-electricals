@@ -18,15 +18,15 @@ export function Header() {
           </Link>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center gap-14">
-            <Link href="/" className="text-foreground hover:text-accent font-medium transition">
+          <div className="hidden md:flex items-center gap-14 font-normal">
+            <Link href="/" className="text-foreground hover:text-accent transition">
               Home
             </Link>
-            <Link href="/about" className="text-foreground hover:text-accent font-medium transition">
+            <Link href="/about" className="text-foreground hover:text-accent transition">
               About us
             </Link>
             <div className="relative group">
-              <button className="text-foreground hover:text-accent font-medium transition">
+              <button className="text-foreground hover:text-accent transition">
                 Our Services
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-white rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
@@ -35,7 +35,7 @@ export function Header() {
                 </Link>
               </div>
             </div>
-            <Link href="/area-of-work" className="text-foreground hover:text-accent font-medium transition">
+            <Link href="/area-of-work" className="text-foreground hover:text-accent transition">
               Area of Work
             </Link>
           </div>
@@ -44,7 +44,7 @@ export function Header() {
           <div className="hidden md:block">
             <Link
               href="/contact"
-              className="bg-accent text-accent-foreground px-6 py-2 rounded font-medium hover:opacity-90 transition"
+              className="bg-accent text-accent-foreground px-6 py-2 rounded font-normal hover:opacity-90 transition"
             >
               Contact
             </Link>
