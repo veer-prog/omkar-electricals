@@ -101,7 +101,7 @@ export default function AreaOfWork() {
         {/* Success Pie Chart Section */}
         <section className="py-12 md:py-16 px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-semibold text-foreground mb-12 text-center font-geist">
+            <h2 className="text-2xl font-medium text-foreground mb-12 text-center font-geist">
               As of July 2026, <span className="text-accent">We Are Proudly Serving</span>
             </h2>
             <SuccessPieChart />
@@ -115,25 +115,25 @@ export default function AreaOfWork() {
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
                 {/* Stat 1 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>700+</h3>
+                  <h3 className="text-5xl md:text-6xl font-medium mb-2 font-roboto" style={{ color: '#1F2937' }}>700+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Happy Clients</p>
                 </div>
 
                 {/* Stat 2 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>55+</h3>
+                  <h3 className="text-5xl md:text-6xl font-medium mb-2 font-roboto" style={{ color: '#1F2937' }}>55+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Locations</p>
                 </div>
 
                 {/* Stat 3 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>300+</h3>
+                  <h3 className="text-5xl md:text-6xl font-medium mb-2 font-roboto" style={{ color: '#1F2937' }}>300+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Projects</p>
                 </div>
 
                 {/* Stat 4 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>45+</h3>
+                  <h3 className="text-5xl md:text-6xl font-medium mb-2 font-roboto" style={{ color: '#1F2937' }}>45+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Professionals</p>
                 </div>
               </div>
