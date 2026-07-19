@@ -87,7 +87,7 @@ export default function AreaOfWork() {
                       <img
                         src={logo.url}
                         alt={logo.name}
-                        className="h-auto max-h-32 object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                        className="h-auto max-h-32 object-contain transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
                   ))}
