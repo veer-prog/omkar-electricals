@@ -2,6 +2,7 @@
 
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
+import { SuccessPieChart } from '@/components/success-pie-chart'
 
 export default function AreaOfWork() {
   const sectors = [
@@ -87,13 +88,23 @@ export default function AreaOfWork() {
                       <img
                         src={logo.url}
                         alt={logo.name}
-                        className="h-auto max-h-32 object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                        className="h-auto max-h-32 object-contain transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
                   ))}
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Success Pie Chart Section */}
+        <section className="py-12 md:py-16 px-4">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 text-center font-geist">
+              As of July 2026, <span className="text-accent">We Are Proudly Serving</span>
+            </h2>
+            <SuccessPieChart />
           </div>
         </section>
 
@@ -104,13 +115,13 @@ export default function AreaOfWork() {
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
                 {/* Stat 1 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>500+</h3>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>700+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Happy Clients</p>
                 </div>
 
                 {/* Stat 2 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>40+</h3>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>55+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Locations</p>
                 </div>
 
@@ -122,7 +133,7 @@ export default function AreaOfWork() {
 
                 {/* Stat 4 */}
                 <div className="text-center">
-                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>40+</h3>
+                  <h3 className="text-5xl md:text-6xl font-semibold mb-2 font-roboto" style={{ color: '#1F2937' }}>45+</h3>
                   <p className="text-lg md:text-xl font-inter" style={{ color: '#1F2937' }}>Professionals</p>
                 </div>
               </div>
