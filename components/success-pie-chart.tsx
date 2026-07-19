@@ -4,13 +4,13 @@ import { useEffect, useState } from 'react'
 import { PieChart, Pie, Cell, Legend, Tooltip, ResponsiveContainer } from 'recharts'
 
 const data = [
-  { name: 'Projects Completed', value: 300 },
-  { name: 'Client Satisfaction', value: 95 },
-  { name: 'On-Time Delivery', value: 98 },
-  { name: 'Safety Compliance', value: 100 },
+  { name: 'Developers & Real Estate', value: 300 },
+  { name: 'Commercial Buildings', value: 95 },
+  { name: 'Banking & Financial Services', value: 98 },
+  { name: 'Institutional', value: 100 },
 ]
 
-const COLORS = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
+const COLORS = ['#FF3F14', '#4997F5', '#F2DB13', '#49CF3A']
 
 export function SuccessPieChart() {
   const [isAnimating, setIsAnimating] = useState(false)
@@ -21,9 +21,8 @@ export function SuccessPieChart() {
 
   return (
     <div
-      className={`w-full transition-all duration-1500 ${
-        isAnimating ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-      }`}
+      className={`w-full transition-all duration-1500 ${isAnimating ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+        }`}
     >
       <style>{`
         .recharts-wrapper {
