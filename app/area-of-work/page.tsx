@@ -102,7 +102,7 @@ export default function AreaOfWork() {
         <section className="py-12 md:py-16 px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 text-center font-geist">
-              Our Success <span className="text-accent">Achievements</span>
+              As of July 2026, <span className="text-accent">We Are Proudly Serving</span>
             </h2>
             <SuccessPieChart />
           </div>
