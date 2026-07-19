@@ -90,19 +90,19 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 font-geist">
               {[
                 {
-                  title: 'Residential Wiring',
-                  description: 'Complete electrical wiring solutions for homes with safety compliance',
-                  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5h0vBX0i7Y641cJ4tYRRolqtEFuY11.png',
+                  title: 'Electrical Panel Installation',
+                  description: 'Professional installation and maintenance of electrical distribution panels',
+                  image: '/electrical-panel-work.png',
                 },
                 {
-                  title: 'Industrial Installation',
-                  description: 'Heavy-duty electrical systems for industrial applications',
-                  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qV1D3WJNYQ92w51dKUcwAK6zmg6cVE.png',
+                  title: 'Circuit Breaker Installation',
+                  description: 'Expert circuit breaker and safety switch installation and maintenance',
+                  image: '/circuit-breaker-install.png',
                 },
                 {
-                  title: 'Maintenance & Repair',
-                  description: 'Professional maintenance and repair of existing electrical systems',
-                  image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-dYc3jcrTgOT6ISU3mRVsC0ceWtzbnn.png',
+                  title: 'Inspection & Compliance',
+                  description: 'Comprehensive electrical system inspection and compliance verification',
+                  image: '/electrical-inspection.png',
                 },
               ].map((service) => (
                 <div key={service.title} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition">
