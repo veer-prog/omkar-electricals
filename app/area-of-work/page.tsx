@@ -1,9 +1,17 @@
 'use client'
 
+import { useState, useEffect } from 'react'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
+import { SuccessPieChart } from '@/components/success-pie-chart'
 
 export default function AreaOfWork() {
+  const [chartVisible, setChartVisible] = useState(false)
+
+  useEffect(() => {
+    setChartVisible(true)
+  }, [])
+
   const sectors = [
     {
       name: 'Institutional',
@@ -94,6 +102,16 @@ export default function AreaOfWork() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Success Pie Chart Section */}
+        <section className="py-12 md:py-16 px-4 bg-gray-50">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 text-center font-geist">
+              Our Success <span className="text-accent">Achievements</span>
+            </h2>
+            <SuccessPieChart isVisible={chartVisible} />
           </div>
         </section>
 
