@@ -205,7 +205,7 @@ export default function Services() {
         {/* CTA Section */}
         <section className="bg-foreground text-white py-16 md:py-20 px-4">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6 font-geist">
+            <h2 className="text-3xl md:text-4xl font-medium mb-6 font-geist">
               Ready to Get Started?
             </h2>
             <p className="text-gray-300 mb-8 text-lg max-w-2xl mx-auto font-geist">
