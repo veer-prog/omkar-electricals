@@ -14,7 +14,7 @@ export function Footer() {
           {/* About section */}
 
           {/* Quick links */}
-          <div>
+          <div className="text-left">
             <h3 className="font-medium text-lg mb-4">Quick Links</h3>
             <ul className="flex flex-wrap gap-6 text-sm">
               <li>
