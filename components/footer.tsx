@@ -47,7 +47,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="text-center text-gray-300 text-sm">
-            <p>© Omkar Electricals {currentYear}, Design & developed by Viren</p>
+            <p>© Omkar Electricals {currentYear}</p>
           </div>
         </div>
       </div>
