@@ -9,13 +9,13 @@ export function Footer() {
   return (
     <footer className="bg-foreground text-white">
       {/* Main footer content */}
-      <div className="max-w-5xl mx-auto px-4 py-12 font-geist">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 mb-8 text-center">
+      <div className="max-w-5xl mx-auto px-4 py-4 font-geist">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 mb-4 text-center">
           {/* About section */}
 
           {/* Quick links */}
           <div className="text-left">
-            <h3 className="font-medium text-lg mb-4">Quick Links</h3>
+            <h3 className="font-medium text-lg mb-2">Quick Links</h3>
             <ul className="flex flex-wrap gap-6 text-sm">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-accent transition">
