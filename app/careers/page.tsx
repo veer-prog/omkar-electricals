@@ -228,7 +228,7 @@ export default function CareersPage() {
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-glqgaNnv8MfKtHIb3fpHo4qd2gFrAv.png"
                   alt="Apprenticeship Program"
-                  className="w-full h-auto rounded-lg"
+                  className="w-[600px] h-auto rounded-lg"
                 />
               </div>
               <div>
