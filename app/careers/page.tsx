@@ -231,7 +231,7 @@ export default function CareersPage() {
       {/* Open Positions Section */}
       <section id="positions" className="py-12 md:py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12 font-geist">Open Positions</h2>
+          <h2 className="text-3xl md:text-4xl font-medium text-center mb-12 font-geist">Open Positions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {jobListings.map((job) => (
               <JobCard key={job.id} {...job} />
