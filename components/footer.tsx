@@ -11,7 +11,7 @@ export function Footer() {
       {/* Main footer content */}
       <div className="max-w-5xl mx-auto px-4 py-12 font-geist">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 mb-8 text-center">
-          {/* About section */}==
+          {/* About section */}
 
           {/* Quick links */}
           <div className="text-left">
