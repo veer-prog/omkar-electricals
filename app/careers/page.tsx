@@ -233,7 +233,7 @@ export default function CareersPage() {
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl font-medium mb-6 font-geist">Apprenticeship Program</h2>
-                <p className="text-lg text-gray-600 mb-6 font-geist">
+                <p className="mb-6 font-geist" style={{ fontSize: '17px', color: '#005ee1', textAlign: 'justify' }}>
                   Our structured apprenticeship program is designed to teach you the electrical trade from the ground up. Learn from industry experts while earning and gaining practical experience along with professional experience letter with Govt. stamp.
                 </p>
                 <ul className="space-y-3 mb-8 font-geist">
