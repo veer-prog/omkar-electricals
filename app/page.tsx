@@ -166,7 +166,7 @@ export default function Home() {
             >
               Download Brochure
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%2819%29-qnobTlu32U2xgT7f8N5xhwRup0KcSc.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%2820%29-O93XTCqx94FrgBLROhZZAeM2mTPMj7.png"
                 alt="Download icon"
                 className="w-5 h-5"
               />
