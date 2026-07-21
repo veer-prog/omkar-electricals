@@ -1,5 +1,7 @@
 'use client'
 
+import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
 import { FeatureCard } from '@/components/careers/feature-card'
 import { JobCard } from '@/components/careers/job-card'
 import { ChecklistCard } from '@/components/careers/checklist-card'
@@ -114,7 +116,9 @@ const timelineSteps = [
 
 export default function CareersPage() {
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <Header />
+      <main className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="bg-foreground text-white py-16 md:py-24 px-4">
         <div className="max-w-7xl mx-auto text-center">
@@ -310,6 +314,8 @@ export default function CareersPage() {
           </a>
         </div>
       </section>
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 }
