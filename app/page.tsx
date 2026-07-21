@@ -142,7 +142,8 @@ export default function Home() {
             <div className="text-center">
               <button
                 onClick={handleBrochureDownload}
-                className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer"
+                className="inline-block px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer text-white"
+                style={{ backgroundColor: '#e81717' }}
               >
                 Download Brochure
               </button>
