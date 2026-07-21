@@ -140,13 +140,12 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <button
-                onClick={handleBrochureDownload}
-                className="inline-block px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer text-white"
-                style={{ backgroundColor: '#e81717' }}
+              <Link
+                href="/contact"
+                className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter"
               >
-                Download Brochure
-              </button>
+                Contact Now
+              </Link>
             </div>
           </div>
         </section>
@@ -162,9 +161,10 @@ export default function Home() {
             </p>
             <button
               onClick={handleBrochureDownload}
-              className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer"
+              className="inline-block px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter cursor-pointer text-white"
+              style={{ backgroundColor: '#e81717' }}
             >
-              Contact Now
+              Download Brochure
             </button>
           </div>
         </section>
