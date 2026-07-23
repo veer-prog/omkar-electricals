@@ -152,11 +152,11 @@ export default function Home() {
 
         {/* Electrical Services List */}
         <section className="py-16 md:py-24 px-4 bg-background">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 font-geist text-center">
               We carry out Electrical services like
             </h2>
-            <div className="space-y-4 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Panel Testing</p>
