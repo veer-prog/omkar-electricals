@@ -11,10 +11,10 @@ export default function Contact() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="bg-background py-12 md:py-20 px-4">
+        <section className="bg-background px-4" style={{ paddingTop: '50px', paddingBottom: '40px' }}>
           <div className="max-w-5xl mx-auto">
             <p className="text-accent font-bold text-sm md:text-base mb-4 font-geist">WHO WE ARE?</p>
-            <h1 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 font-geist">
+            <h1 className="text-3xl md:text-4xl font-normal text-foreground mb-6 font-geist">
               You Have a <span className="text-accent">Question?</span>
             </h1>
             <p className="text-2xl md:text-3xl text-foreground font-normal font-geist">Let us Answer it.</p>
@@ -22,7 +22,7 @@ export default function Contact() {
         </section>
 
         {/* Contact Info Cards */}
-        <section className="py-16 md:py-24 px-4 font-geist">
+        <section className="px-4 font-geist" style={{ paddingTop: '66px', paddingBottom: '96px' }}>
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
               {/* Head Office */}
@@ -34,8 +34,8 @@ export default function Contact() {
                     className="w-16 h-16 object-contain"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground mb-4">Head Office</h3>
-                <p className="text-gray-700 text-base leading-relaxed font-roboto">
+                <h3 className="text-xl font-semibold text-foreground mb-4 font-roboto">Head Office</h3>
+                <p className="text-gray-700 text-base leading-relaxed" style={{ fontFamily: '"Inter", sans-serif' }}>
                   Janwadkar complex lower ground (LG-2), Panchaganga hospital,
                   <br />
                   2116 Shukrawar peth, Kolhapur (416002),
@@ -50,13 +50,15 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-geist">
                   <a
                     href="tel:+917721027474"
-                    className="bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3 px-6 rounded text-center transition"
+                    className="bg-slate-900 hover:bg-slate-800 text-white py-3 px-6 rounded text-center transition"
+                    style={{ fontWeight: '500' }}
                   >
                     CALL NOW
                   </a>
                   <a
                     href="https://wa.me/919209254245"
-                    className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded text-center transition"
+                    className="bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded text-center transition"
+                    style={{ fontWeight: '500' }}
                   >
                     WHATSAPP
                   </a>
