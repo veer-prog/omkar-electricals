@@ -153,33 +153,33 @@ export default function Home() {
         {/* Electrical Services List */}
         <section className="py-16 md:py-24 px-4 bg-background">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 font-geist text-center">
+            <h2 className="font-normal text-foreground mb-12 font-geist text-center" style={{ fontSize: '30px' }}>
               We carry out Electrical services like
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8" style={{ fontFamily: '"Geist", sans-serif', fontSize: '18px', textTransform: 'capitalize' }}>
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
-                <p className="text-gray-700 text-base font-geist">Panel Testing</p>
+                <p className="text-gray-700 font-geist">Panel Testing</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
-                <p className="text-gray-700 text-base font-geist">Fault Finding in a circuit</p>
+                <p className="text-gray-700 font-geist">Fault Finding in a circuit</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
-                <p className="text-gray-700 text-base font-geist">Electrical Power Harmonic testing</p>
+                <p className="text-gray-700 font-geist">Electrical Power Harmonic testing</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
-                <p className="text-gray-700 text-base font-geist">Transformer Testing</p>
+                <p className="text-gray-700 font-geist">Transformer Testing</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
-                <p className="text-gray-700 text-base font-geist">Identifying quality of power</p>
+                <p className="text-gray-700 font-geist">Identifying quality of power</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
-                <p className="text-gray-700 text-base font-geist">DG Efficiency and consumption calculations</p>
+                <p className="text-gray-700 font-geist">DG Efficiency and consumption calculations</p>
               </div>
             </div>
             <div className="text-center">
@@ -187,7 +187,7 @@ export default function Home() {
                 href="/contact"
                 className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter"
               >
-                Get Quote
+                Contact Now
               </Link>
             </div>
           </div>
