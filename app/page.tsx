@@ -152,41 +152,41 @@ export default function Home() {
 
         {/* Electrical Services List */}
         <section className="py-16 md:py-24 px-4 bg-background">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-8 font-geist text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-12 font-geist text-center">
               We carry out Electrical services like
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8" style={{ textAlign: 'left' }}>
+            <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Panel Testing</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Fault Finding in a circuit</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Electrical Power Harmonic testing</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Transformer Testing</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Identifying quality of power</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">Oil Filtration and quality test</p>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-accent font-bold text-lg">•</span>
+                <span className="text-accent font-bold text-lg flex-shrink-0">•</span>
                 <p className="text-gray-700 text-base font-geist">DG Efficiency and consumption calculations</p>
               </div>
             </div>
-            <div>
+            <div className="text-center">
               <Link
                 href="/contact"
                 className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded font-medium hover:opacity-90 transition font-inter"
